@@ -8,8 +8,6 @@ let descuentoJunior     = 15;
 let cantidadTickets = document.getElementById("cantidad");
 let categoria       = document.getElementById("categoria");
 
-
-
 function total_a_pagar() {
 
     let totalValorTickets = (cantidadTickets.value) * valorTicket;
