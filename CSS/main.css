@@ -1,0 +1,155 @@
+main{
+    position: relative;
+    color: var(--textcolor);
+    margin-bottom: 3%;
+
+    .banner{
+        padding: 0%;
+    }
+   
+    .carousel{
+        filter: brightness(0.7);
+        display: inline-block;
+        width: 100%;
+    }
+
+    & .invitacion{
+        position: absolute;
+        right: 5em;
+        text-align: right;
+        width: 45%;
+        top: 48%;
+        line-height: 1.5em;
+    
+
+        & a{
+            text-decoration: none;
+            color: var(--textcolor);
+            margin: 15px;
+            border: 1px solid var(--textcolor);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        #btn-invitacion{
+            flex-wrap: nowrap;
+        }
+
+        .btn-primary{
+            background-color: var(--colorbtn);
+            border: 1px solid var(--colorbtn);
+        }
+
+        & p{
+            margin: 20px 0;
+        }
+    }
+}
+
+@media (max-width: 1024px){
+
+    main{
+        position: relative;
+        color: var(--textcolor);
+        width: 100%;
+        margin-top: 0%;
+
+        .banner{
+            padding: 0%;
+        }
+       
+        #img{
+            filter: brightness(0.7);
+            width: 100%;
+        }
+        
+        & .invitacion{
+            position: absolute;
+            right: 3em;
+            padding: 0 1.8em 1.8em;
+            text-align: right;
+            width: 50%;
+            top: 43%;
+            line-height: 1.1em;
+
+            & a{
+                text-decoration: none;
+                color: var(--textcolor);
+                margin: 6px;
+                border: 1px solid var(--textcolor);
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+    
+            .btn-primary{
+                background-color: var(--colorbtn);
+                border: 1px solid var(--colorbtn);
+            }
+    
+            & p{
+                margin: 8px 0;
+            }
+        }
+    }
+}
+
+ @media (max-width: 540px){
+
+    main{
+        position: relative;
+        color: var(--textcolor);
+        width: 100%;
+
+        .banner{
+            padding: 0%;
+        }
+
+        .container-fluid{
+            max-width: 100%;
+            margin: 0%;
+        }
+       
+        #img{
+            filter: brightness(0.7);
+            width: 100%;
+            height: 130%;
+        }
+        & .invitacion{
+            position: absolute;
+            right: .2em;
+            text-align: right;
+            width: 100%;
+            top: 6%;
+            line-height: .8em;
+            margin-top: 1%
+
+        }
+        
+        #btn-invitacion{
+            flex-wrap: nowrap;
+            margin-left: -5%;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--textcolor);
+            margin: 6px;
+            border: 1px solid var(--textcolor);
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+
+        .btn-primary{
+            background-color: var(--colorbtn);
+            border: 1px solid var(--colorbtn);
+        }
+
+        & h1{
+            font-size: 1.2em;
+        }
+
+        & p{
+            margin: 8px 0;
+        }
+    } 
+}

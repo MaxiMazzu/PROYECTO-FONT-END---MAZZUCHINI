@@ -1,0 +1,253 @@
+:root{
+    --bgcolor: #353A40;
+    --textcolor: white;
+    --colorbtn: #29A744;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    #title-orador{
+        
+        text-align: center;
+        & h4{
+            font-size: .8em;
+        }
+        & h2{
+            font-size: 2em;
+        }
+    }
+
+    header{
+        max-width: 100%;
+    }
+
+    #nav-bar{
+        background-color: var(--bgcolor);
+        color: var(--textcolor);
+        padding-right: 4%;
+    }
+    
+    .d-inline-block{
+        margin-left: 4%;
+    }
+    
+    #item1{
+        color: var(--textcolor);
+    }
+    
+    #item{
+        color: rgb(185, 182, 182);
+    }
+    
+    
+    #ticket{
+        color: var(--colorbtn);
+    }
+    
+    .navbar-toggler{
+        border-color: var(--textcolor);
+        margin-right: 4%;
+    }
+
+    #card-oradores{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        
+            .card{
+            width: 250px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin: 1.5%;
+            padding: 0%;
+            
+            & img{
+                width: 100%;
+            }
+            .container-card{
+                width: 80%;
+                margin: 20px;
+                & a{
+                    text-decoration: none;
+                    padding: 0 5px;
+                }
+
+                .btn-card-1{
+                    background-color: rgb(254, 194, 8);
+                    border: 2px solid rgb(254, 194, 8);
+                    color: black;
+                    font-weight: 800;
+                    font-size: .8em;
+                    border-radius: 5px;
+                }
+                .btn-card-2{
+                    background-color: rgb(23, 162, 185);
+                    border: 2px solid  rgb(23, 162, 185);
+                    color: white;
+                    font-weight: 800;
+                    font-size: .8em;
+                    border-radius: 5px;
+                }
+                .btn-card-3{
+                    background-color: rgb(108, 117, 126);
+                    border: 2px solid rgb(108, 117, 126);
+                    color: white;
+                    font-weight: 800;
+                    font-size: .8em;
+                    border-radius: 5px;
+                }
+                .btn-card-4{
+                    background-color: rgb(219, 54, 70);
+                    border: 2px solid rgb(219, 54, 70);
+                    color: white;
+                    font-weight: 800;
+                    font-size: .8em;
+                    border-radius: 5px;
+                }
+                & h3{
+                    margin: 5px 0 10px 0;
+                }
+                & p{
+                    line-height: 1.3em;
+                    font-size: .7em;
+                    text-align: justify;
+                }
+            }
+          }
+    }
+
+    .paisaje-descr{
+        margin-top: 2%;
+    }
+   
+   .item-2{
+    grid-area: paisaje;
+    margin: 0%;
+    padding: 0%;
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+   }
+   .item-3{
+    grid-area: descripcion;
+    margin: 0%;
+    padding: 1%;
+    background-color: var(--bgcolor);
+    color: var(--textcolor);
+    & p{
+        margin: 1.5em 0;
+        text-align: justify;
+    }
+    & a{
+        text-decoration: none;
+        color: var(--textcolor);
+        border: 1px solid var(--textcolor);
+        padding: 7px;
+        border-radius: 4px;
+    }
+    
+   }
+   .item-4{
+    grid-area: formulario;
+    width: 100%;
+    .title-orador{
+        margin-top:  2em;
+        text-align: center;
+        
+        & h4{
+            font-size: .8em;
+        }
+        & h2{
+            font-size: 2em;
+        }
+        & p{
+            margin-top: 1em;
+        }
+    }
+    .form-group{
+        display: flex;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & form{
+            width: 100%;
+        }
+        & p{
+            font-size: .7em;
+        }
+    }
+    #nombres{
+        display: flex;
+        margin: .5em 0;
+    
+        & input{
+            width: 100%;
+            padding: .3em;
+        }
+        .nbre{
+            margin-right: 2em;
+        }
+    }
+    #tema{
+        margin-bottom: .5em;
+    }
+    & textarea{
+        width: 100%;
+        height: 7em;
+        padding: .5em;
+    }
+    .btn-primary{
+        background-color: rgb(150, 201, 62);
+        width: 100%;
+        padding: 5px;
+        color: white;
+        border: 1px solid rgb(150, 201, 62);
+        border-radius: 3px;
+    }
+
+  }
+
+  @media (max-width: 575px){
+    
+    body{
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+
+    .item-4{
+        width: 90%;
+    }
+
+    .item-3{
+        padding: 1.5%;
+    }
+
+    .form-group{
+        display: flex;
+        width: 100%;
+        max-width: 700px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & form{
+            width: 100%;
+        }
+        & p{
+            font-size: .7em;
+        }
+    }
+  }
+
+
