@@ -9,7 +9,6 @@ main{
    
     .carousel{
         filter: brightness(0.7);
-        display: inline-block;
         width: 100%;
     }
 
@@ -21,6 +20,7 @@ main{
         top: 48%;
         line-height: 1.5em;
     
+
         & a{
             text-decoration: none;
             color: var(--textcolor);
@@ -60,6 +60,7 @@ main{
         #img{
             filter: brightness(0.7);
             width: 100%;
+            height: auto;
         }
         
         & .invitacion{
@@ -68,7 +69,7 @@ main{
             padding: 0 1.8em 1.8em;
             text-align: right;
             width: 50%;
-            top: 43%;
+            top: 40%;
             line-height: 1.1em;
 
             & a{
@@ -110,17 +111,19 @@ main{
        
         #img{
             filter: brightness(0.7);
-            width: 100%;
-            height: 130%;
+            width: auto;
+            height: 35rem;
         }
+
         & .invitacion{
             position: absolute;
-            right: .2em;
+            right: 1.5em;
             text-align: right;
-            width: 100%;
-            top: 6%;
-            line-height: .8em;
-            margin-top: 1%
+            width: 94%;
+            top: 40%;
+            line-height: 1.2em;
+            margin-top: 1%;
+            font-size: 1em;
 
         }
         
@@ -151,4 +154,24 @@ main{
             margin: 8px 0;
         }
     } 
+
+    @media (max-width: 280px){
+
+        main{
+
+        #img{
+            filter: brightness(0.7);
+            width: 150%;
+            height: 35rem;
+        }
+
+        .invitacion{
+            right: 1em;
+            top: 28%;
+        }
+
+      }
+
+    }
+
 }

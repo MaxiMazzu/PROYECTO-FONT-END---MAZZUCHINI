@@ -46,17 +46,17 @@
 
     <main>
         <div class="container-fluid banner">
-            <div class="row">
+            
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/img/hawaii.jpg" class="d-block w-100" alt="...">
+                            <img id="img" src="./assets/img/hawaii.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/img/hawaii2.jpg" class="d-block w-100" alt="...">
+                            <img id="img" src="./assets/img/hawaii2.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/img/hawaii3.jpg" class="d-block w-100" alt="...">
+                            <img id="img" src="./assets/img/hawaii3.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
@@ -86,100 +86,106 @@
                         <a class="btn btn-primary" href="ticket.html">Comprar Tckets</a>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </main>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12" id="title-orador">
                 <h4>CONOCE A LOS</h4>
                 <H2><b>ORADORES</b></H2>
             </div>
-            <div class="row" id="card-oradores">
-                <div class=" col-3 card">
-                    <img src="./assets/img/bill.jpg" alt="Imagen del Disertante Bill Gates">
-                    <div class="container-card">
-                        <a class="btn-card-1" href="">JavaScript</a>
-                        <a class="btn-card-2" href="">React</a>
-                        <h3>Bill Gates</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda nam minima
-                            voluptatem ad, optio, nesciunt doloribus explicabo officia pariatur laborum. Voluptates
-                            error, voluptatem laborum ducimus nam mollitia nihil molestiae!</p>
-                    </div>
+        </div>
+        <div class="row" id="card-oradores">
+            <div class="col-lg-3 sm-12 card">
+                <img src="./assets/img/bill.jpg" alt="Imagen del Disertante Bill Gates">
+                <div class="container-card">
+                    <a class="btn-card-1" href="">JavaScript</a>
+                    <a class="btn-card-2" href="">React</a>
+                    <h3>Bill Gates</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda nam minima
+                        voluptatem ad, optio, nesciunt doloribus explicabo officia pariatur laborum. Voluptates
+                        error, voluptatem laborum ducimus nam mollitia nihil molestiae!</p>
                 </div>
-                <div class="col-3 card">
-                    <img src="./assets/img/steve.jpg" alt="Imagen del Disertante Steve Jobs">
-                    <div class="container-card">
-                        <a class="btn-card-1" href="">JavaScript</a>
-                        <a class="btn-card-2" href="">React</a>
-                        <h3>Steve Jobs</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda nam minima
-                            voluptatem ad, optio, nesciunt doloribus explicabo officia pariatur laborum. Voluptates
-                            error, voluptatem laborum ducimus nam mollitia nihil molestiae!</p>
-                    </div>
+            </div>
+            <div class="col-lg-3 sm-12 card">
+                <img src="./assets/img/steve.jpg" alt="Imagen del Disertante Steve Jobs">
+                <div class="container-card">
+                    <a class="btn-card-1" href="">JavaScript</a>
+                    <a class="btn-card-2" href="">React</a>
+                    <h3>Steve Jobs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda nam minima
+                        voluptatem ad, optio, nesciunt doloribus explicabo officia pariatur laborum. Voluptates
+                        error, voluptatem laborum ducimus nam mollitia nihil molestiae!</p>
                 </div>
-                <div class="col-3 card">
-                    <img src="./assets/img/ada.jpeg" alt="Imagen del Disertante Ada Lovelace">
-                    <div class="container-card">
-                        <a class="btn-card-3" href="">Negocios</a>
-                        <a class="btn-card-4" href="">Startups</a>
-                        <h3>Ada Lovelace</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda nam minima
-                            voluptatem ad, optio, nesciunt doloribus explicabo officia pariatur laborum. Voluptates
-                            error, voluptatem laborum ducimus nam mollitia nihil molestiae!</p>
-                    </div>
+            </div>
+            <div class="col-lg-3 sm-12 card">
+                <img src="./assets/img/ada.jpeg" alt="Imagen del Disertante Ada Lovelace">
+                <div class="container-card">
+                    <a class="btn-card-3" href="">Negocios</a>
+                    <a class="btn-card-4" href="">Startups</a>
+                    <h3>Ada Lovelace</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda nam minima
+                        voluptatem ad, optio, nesciunt doloribus explicabo officia pariatur laborum. Voluptates
+                        error, voluptatem laborum ducimus nam mollitia nihil molestiae!</p>
                 </div>
             </div>
         </div>
     </div>
-        <div class="container-fluid">
-            <div class="row paisaje-descr">
-                <div class="col-6 item-2">
-                    <img src="./assets/img/honolulu.jpg" alt="">
-                </div>
-                <div class="col-6 item-3" id="lugar">
-                    <h1>
-                        Bs As - Octubre
-                    </h1>
-                    <p>
-                        Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados
-                        Unidos.Honolulu es la mas sureña de entre las principales ciudades estadounidenses.Aunque el
-                        nombre
-                        de
-                        Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el
-                        condado de
-                        Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamete
-                        600km2
-                        de
-                        superficie).
-                    </p>
-                    <a href="#convert">Conocé más</a>
-                </div>
+    <div class="container-fluid">
+        <div class="row paisaje-descr">
+            <div class="col-lg-6 sm-12 item-2">
+                <img src="./assets/img/honolulu.jpg" alt="">
+            </div>
+            <div class="col-lg-6 sm-12 item-3" id="lugar">
+                <h1>
+                    Bs As - Octubre
+                </h1>
+                <p>
+                    Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados
+                    Unidos.Honolulu es la mas sureña de entre las principales ciudades estadounidenses.Aunque el
+                    nombre
+                    de
+                    Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el
+                    condado de
+                    Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamete
+                    600km2
+                    de
+                    superficie).
+                </p>
+                <a href="#convert">Conocé más</a>
             </div>
         </div>
-        
-        <div class=" container-fluid item-4">
-            <div class="title-orador" id="convert">
-                <h4>CONVIERTETE EN UN</h4>
-                <H2><b>ORADOR</b></H2>
-                <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
-            </div>
-            <div class="form-group">
-                <form>
-                    <div id="nombres">
+    </div>
+    <div class=" container-fluid item-4">
+        <div class="title-orador" id="convert">
+            <h4>CONVIERTETE EN UN</h4>
+            <H2><b>ORADOR</b></H2>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        </div>
+        <div class="form-group">
+            <form>
+                <div id="nombres" class="row">
+                    <div class="col-lg-6 sm-12">
                         <input class="form-control nbre" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="col-lg-6 sm-12">
                         <input class="form-control" type="text" placeholder="Apellido">
                     </div>
-                    <div id="tema">
-                        <textarea class="form-control" placeholder="Sobre que queres hablar?" id="" cols="30"
-                            rows="10"></textarea>
-                        <p>Recuerda incluir un título para tu charla</p>
-                    </div>
-                    <input class="btn btn-primary" type="submit" value="Enviar">
-                </form>
-            </div>
+                </div>
+                <div class="email">
+                    <input class="form-control" type="text" placeholder="Email">
+                </div>
+                <div id="tema">
+                    <textarea class="form-control" placeholder="Sobre que queres hablar?" id="" cols="30"
+                        rows="10"></textarea>
+                    <p>Recuerda incluir un título para tu charla</p>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Enviar">
+            </form>
         </div>
+    </div>
     </div>
 
     <footer>

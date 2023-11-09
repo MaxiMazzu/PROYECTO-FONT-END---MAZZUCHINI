@@ -70,13 +70,12 @@ option{
     .card{
         width: 90%;
     }
-
+    
     .col-lg-6{
         padding-left: 0%;
     padding-right: 0%;
     }
 
-    
     strong{
         font-size: 80%;
     }

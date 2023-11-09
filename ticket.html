@@ -47,6 +47,7 @@
 
 
     <div class=" container-fluid item-4">
+
         <div class="categorias">
             <div class="card text-bg-primary mb-3" style="max-width: 35rem;">
                 <div class="card-header">Estudiante</div>
@@ -80,9 +81,13 @@
         </div>
         <div class="form-group">
             <form>
-                <div id="nombres">
-                    <input class="form-control nbre" type="text" placeholder="Nombre">
-                    <input class="form-control" type="text" placeholder="Apellido">
+                <div id="nombres" class="row">
+                    <div class="col-lg-6 sm-12">
+                        <input class="form-control nbre" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="col-lg-6 sm-12">
+                        <input class="form-control" type="text" placeholder="Apellido">
+                    </div>
                 </div>
                 <input class="form-control" type="text" placeholder="Email">
                 <div id="nombres" class="row">
@@ -94,7 +99,7 @@
                     <div class="col-lg-6  sm-12 sel">
                         <label>Categoria
                             <select id="categoria" class="form-select dropdown nbre" aria-label="Categoria">
-                               <option value selected>--Seleccione--</option>
+                                <option value selected>--Seleccione--</option>
                                 <option value="0">Sin Categoria</option>
                                 <option value="1">Estudiante</option>
                                 <option value="2">Treinee</option>
